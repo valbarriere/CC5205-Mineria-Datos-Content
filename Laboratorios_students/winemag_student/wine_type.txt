@@ -1,0 +1,812 @@
+#applying some feature engineering since there is no indication of the type of wine.
+wine_dictionary = dict()
+
+for wine in wine_list:
+    if wine.startswith('AGLIANICO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ABOURIOU'): 
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ALEATICO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ALBARIÑO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('ALICANTE BOUSCHET'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ALIGOTÉ'):
+        wine_dictionary[wine]  ='white'
+    elif wine.startswith('ALEATICO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ALVARELHÃO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ALVARINHO'):
+        wine_dictionary[wine]  ='white'
+    elif wine.startswith('ANGEVINE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('APPLE'):
+        wine_dictionary[wine] = 'apple'
+    elif wine.startswith('ARNEIS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('AUXERROIS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('BACO NOIR'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('BARBERA'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('BLACK'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('BLAUFRÄNKISCH'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('BORDEAUX-STYLE RED'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('BORDEAUX-STYLE WHITE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CABERNET'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CARIGNAN'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CARMENÈRE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CAYUGA'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CHAMBOURCIN'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CHANCELLOR'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CHARBONO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CHARDONEL'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CHARDONNAY'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CHELOIS'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CHENIN BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CINSAULT'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('CINSAULT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CLARET'):
+        wine_dictionary[wine] ='red'
+    elif wine.startswith('COLOMBARD'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('CORTESE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('COUNOISE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('DEBIT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('DIAMOND'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('DOLCETTO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('DORNFELDER'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('EDELZWICKER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('FALANGHINA'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('FIANO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('FUMÉ BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('G-S-M'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('GAMAY'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('GARNACHA'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('GEWÜRZTRAMINER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('GRACIANO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('GRECO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('GRENACHE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('JACQUEZ'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('JOHANNISBERG RIESLING'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('KERNER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('LAGREIN'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('LEMBERGER'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MADEIRA BLEND'):
+        wine_dictionary[wine] = 'blend'
+    elif wine.startswith('MADELEINE ANGEVINE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MALBEC'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MALVASIA'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MARQUETTE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MARSANNE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MARÉCHAL FOCH'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MATARO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MELON'):
+        wine_dictionary[wine] = 'melon'
+    elif wine.startswith('MERITAGE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MERLOT'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MISSION'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MONASTRELL'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MONDEUSE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MONTEPULCIANO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MORIO MUSKAT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MOSCATO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MOURVÈDRE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MUSCADINE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('MUSCAT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MUSKAT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('MÜLLER-THURGAU'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('NEBBIOLO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('NEGRETTE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('NEGROAMARO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith("NERO D'AVOLA"):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('NORTON'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ORANGE MUSCAT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PALOMINO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PETIT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PICPOUL'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT AUXERROIS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT GRIGIO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT GRIS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT MEUNIER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOT NERO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PINOT NOIR'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PINOT NOIR-SYRAH'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PINOT-CHARDONNAY'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PINOTAGE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PIQUEPOUL BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('PORT'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PRIMITIVO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('PROSECCO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('RED BLEND'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('REFOSCO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('RHÔNE-STYLE RED BLEND'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('RHÔNE-STYLE WHITE BLEND'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('RIBOLLA GIALLA'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('RIESLING'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('RKATSITELI'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('ROS'):
+        wine_dictionary[wine] = 'rose'
+    elif wine.startswith('ROUSSANNE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SAGRANTINO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SANGIOVESE'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SAPERAVI'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SAUVIGNON'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SCHEUREBE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SEMILLON'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SEYVAL BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SHERRY'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SHIRAZ'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SIEGERREBE'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SILVANER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SOUZAO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SPARKLING BLEND'):
+        wine_dictionary[wine] = 'sparkling'
+    elif wine.startswith('ST. VINCENT'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SYLVANER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SYMPHONY'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('SYRAH'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('SÉMILLON'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('TANNAT'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('TEMPRANILLO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('TEROLDEGO'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('TINTA'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('TOCAI FRIULANO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('TORRONTÉS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('TOURIGA'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('TRAMINER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('TREBBIANO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('TROUSSEAU GRIS'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('UGNI BLANC'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VALDIGUIÉ'):
+        wine_dictionary[wine] ='red'
+    elif wine.startswith('VALVIN MUSCAT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VERDEJO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VERDELHO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VERMENTINO'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VERNACCIA'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VIDAL'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VIGNOLES'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('VIOGNIER'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('WHITE BLEND'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('WHITE PORT'):
+        wine_dictionary[wine] = 'white'
+    elif wine.startswith('WHITE RIESLING'):
+        wine_dictionary[wine]  ='white'
+    elif wine.startswith('ZINFANDEL'):
+        wine_dictionary[wine] = 'red'
+    elif wine.startswith('ZWEIGELT'):
+        wine_dictionary[wine]  ='red'
+            
+   
+french_wine_dict = dict()
+
+for wine in wine_list:
+    if wine.startswith('ABOURIOU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('ALIGOTÉ'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('ALSACE WHITE BLEND'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('ALTESSE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('AUXERROIS'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('BIANCU GENTILE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('BORDEAUX-STYLE RED BLEND'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('BORDEAUX-STYLE WHITE BLEND'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('BRAUCOL'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('CABERNET'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('CARCAJOLU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('CARIGNAN'):
+        french_wine_dict[wine]  ='red'
+    elif wine.startswith('CHAMPAGNE BLEND'):
+        french_wine_dict[wine] = 'sparkling'
+    elif wine.startswith('CHARDONNAY'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('CHASSELAS'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('CHENIN BLANC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('CINSAULT'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('CLAIRETTE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('COLOMBARD'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('DURAS'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('EDELZWICKER'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('EKIGAÏNA'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('FER SERVADOU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('FOLLE BLANCHE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('G-S-M'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('GAMAY'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('GEWÜRZTRAMINER'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('GRENACHE'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('GROLLEAU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('GROS AND PETIT MANSENG'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('GROS MANSENG'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('GROS PLANT'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('JACQUÈRE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith("LOIN DE L'OEIL"):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MALBEC'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MALVOISIE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MANSOIS'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MARSANNE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith("MARSELAN"):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MAUZAC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MELON'):
+        french_wine_dict[wine] = 'melon'
+    elif wine.startswith('MERLOT'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MONDEUSE'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MOSCATO'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MOURVÈDRE'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('MUSCADEL'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MUSCADET'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('MUSCAT'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('NEGRETTE'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('NIELLUCIU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('ONDENC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PETIT'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PICPOUL'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PIED DE PERDRIX'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith("PINEAU D'AUNIS"):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('PINOT AUXERROIS'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PINOT BLANC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PINOT NOIR'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('PINOT'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('PRUNELARD'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('RED BLEND'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('RHÔNE-STYLE RED BLEND'):
+        french_wine_dict[wine]  ='red'
+    elif wine.startswith('RHÔNE-STYLE WHITE BLEND'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('RIESLING'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('ROLLE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('ROMORANTIN'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('ROSÉ'):
+        french_wine_dict[wine] = 'rose'
+    elif wine.startswith('ROUSSANNE'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('SACY'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('SAUVIGNON'):
+        french_wine_dict[wine]  ='white'
+    elif wine.startswith('SAVAGNIN'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('SCIACCERELLU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('SEGALIN'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('SEMILLON-SAUVIGNON BLANC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('SHIRAZ'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('SILVANER'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('SYRAH'):
+        french_wine_dict[wine]= 'red'
+    elif wine.startswith('SÉMILLON'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('TANNAT'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('TERRET BLANC'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('TOKAY PINOT GRIS'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('TROUSSEAU'):
+        french_wine_dict[wine] = 'red'
+    elif wine.startswith('UGNI BLANC-COLOMBARD'):
+        french_wine_dict[wine]=  'white'
+    elif wine.startswith('VERDELHO'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('VERMENTINO'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('VIOGNIER'):
+        french_wine_dict[wine] = 'white'
+    elif wine.startswith('WHITE BLEND'):
+        french_wine_dict[wine] = 'white'
+
+
+italy_dict = {}
+
+for wine in wine_list:
+    if wine.startswith('AGLIANICO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('ALBANA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ALBANELLO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ALBAROSSA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('ALEATICO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('ALICANTE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('ANSONICA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ARNEIS'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ASPRINIO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('BARBERA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('BIANCALE'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('BIANCOLELLA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('BOMBINO BIANCO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('BOMBINO NERO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('BONARDA'):
+        italy_dict[wine]= 'red'
+    elif wine.startswith('BORDEAUX-STYLE RED BLEND'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('BOVALE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('BRACHETTO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('CABERNET'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('CANAIOLO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('CANNONAU'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('CAPRETTONE'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('CARIGNANO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('CASAVECCHIA'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('CATALANESCA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('CATARRATTO'):
+        italy_dict[wine]  = 'white'
+    elif wine.startswith('CENTESIMINO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('CESANESE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith("CESANESE D'AFFILE"):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('CHAMPAGNE BLEND'):
+        italy_dict[wine] = 'sparkling'
+    elif wine.startswith('CHARDONNAY'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('CILIEGIOLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('COCOCCIOLA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('CODA DI VOLPE'):
+        italy_dict[wine]  = 'white'
+    elif wine.startswith('COLORINO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('CORTESE'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('CORVINA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('DOLCETTO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('DURELLA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('DURELLO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ENANTIO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('ERBALUCE'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('FALANGHINA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('FAVORITA'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('FIANO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('FRANCISA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('FRANCONIA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('FRAPPATO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('FREISA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('FRIULANO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('GAGLIOPPO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('GARGANEGA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('GEWÜRZTRAMINER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('GLERA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('GRECO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('GRENACHE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('GRIGNOLINO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('GRILLO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('GROPPELLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('GRÜNER VELTLINER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('INCROCIO MANZONI'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('INSOLIA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('INZOLIA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('KERNER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('LACRIMA'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('LAGREIN'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('LAMBRUSCO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('MAGLIOCCO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MALBEC'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MALVAR'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('MALVASIA'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('MANTONICO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('MANZONI'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('MARZEMINO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MERLOT'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('MOLINARA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MONDEUSE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MONICA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('MONTEPULCIANO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('MOSCADELLO'):
+        italy_dict[wine]  = 'white'
+    elif wine.startswith('MOSCATO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('MUSCAT'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('MÜLLER-THURGAU'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('NASCETTA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('NASCO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('NEBBIOLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('NEGROAMARO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('NERELLO'):
+        italy_dict[wine]= 'red'
+    elif wine.startswith('NERO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('NOSIOLA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('NURAGUS'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PALLAGRELLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PALLAGRELLO BIANCO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PALLAGRELLO NERO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PASSERINA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PECORINO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PELAVERGA PICCOLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PERRICONE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PETIT MANSENG'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PETIT'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PICOLIT'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PIEDIROSSO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PIGATO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('PIGNOLETTO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PIGNOLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PINOT BIANCO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('PINOT GRIGIO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PINOT'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('PINOT-CHARDONNAY'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('PRIMITIVO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('PRIÉ BLANC'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('RABOSO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('REBO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('RED BLEND'):
+        italy_dict[wine]  = 'red'
+    elif wine.startswith('REFOSCO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('RIBOLLA GIALLA'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('RIESLING'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('ROSATO'):
+        italy_dict[wine]  ='rose'
+    elif wine.startswith('ROVIELLO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('RUCHÉ'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('SAGRANTINO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('SANGIOVESE'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('SAUVIGNON'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('SCHIAVA'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('SHIRAZ'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('SILVANER'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('SIRICA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('SPARKLING BLEND'):
+        italy_dict[wine] = 'sparkling'
+    elif wine.startswith('SUSUMANIELLO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('SYLVANER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('SYRAH'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('SÉMILLON'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('TAI'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('TANNAT'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('TEMPRANILLO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('TIMORASSO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('TINTILIA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('TOCAI'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('TORBATO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('TRAMINER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('TREBBIANO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('TREBBIANO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('TURBIANA'):
+        italy_dict[wine]  = 'white'
+    elif wine.startswith('UVA DI TROIA'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('UVALINO'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('VELTLINER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VERDECA'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('VERDICCHIO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VERDUZZO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VERMENTINO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VERMENTINO NERO'):
+        italy_dict[wine]  ='red'
+    elif wine.startswith('VERNACCIA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VESPAIOLO'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VESPOLINA'):
+        italy_dict[wine] = 'red'
+    elif wine.startswith('VIOGNIER'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('VITOVSKA'):
+        italy_dict[wine] = 'white'
+    elif wine.startswith('WHITE BLEND'):
+        italy_dict[wine]  = 'white'
+    elif wine.startswith('ZIBIBBO'):
+        italy_dict[wine]  ='white'
+    elif wine.startswith('PRUGNOLO GENTILE'):
+        italy_dict[wine]  ='red'
