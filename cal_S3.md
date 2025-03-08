@@ -8,7 +8,7 @@
 
 |  Semana  | Fechas        | Actividades                                                  |                            Contenido                            |
 | :------: | :------------ | :----------------------------------------------------------- | :----------------------------------------------------------: |
-|    1     | 10/03 - 16/03 | **Lunes 10/03 - 10:15 hrs**: Presentación curso + Explicación Proyecto (Online) <br/>**Viernes 14/03 - 10:15 hrs**: Introducción | [Introducción y Motivación](https://valbarriere.github.io/minerias/1_intro/) |
+|    1     | 10/03 - 16/03 | **Lunes 10/03 - 11:15 hrs**: Presentación curso + Explicación Proyecto (Online) <br/>**Viernes 14/03 - 10:15 hrs**: Introducción | [Introducción y Motivación](https://valbarriere.github.io/minerias/1_intro/) |
 |    2     | 17/03 - 23/03 | **Lunes 17/03 - 10:15 hrs:** Datos <br/> **Lunes 17/03 - 14:30 hrs:** Laboratorio 1 <br/> **Viernes 21/03 - 10:15 hrs:** Exploración de datos   | [Datos](https://valbarriere.github.io/minerias/2_datos/) </br> [Exploración de Datos](https://valbarriere.github.io/minerias/3_datos_exp/) |
 |    3     | 24/03 - 30/03 | **Lunes 24/03 - 10:15 hrs:** Intro Aprendizaje <br/>**Viernes 28/03 - 10:15 hrs:** Sesión de Grupo Proyecto #1 | [Introducción a la Clasificación](https://valbarriere.github.io/minerias/4_intro_sl/)  |
 |    4     | 31/03 - 06/04 | **Lunes 31/03 - 10:15 hrs:** Sesgos y Equidad <br/>**Lunes 31/03 - 14:30 hrs:** Laboratorio 2 | [Sesgos y Equidad](https://valbarriere.github.io/minerias/5_biases/)|
