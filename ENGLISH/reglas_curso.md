@@ -65,7 +65,7 @@ You have a 1 week late payment period with 1 point deductions per day.
 
 - Final Grade = NP \* 0.4 + NL \* 0.45 + NC \* 0.15
 
-#### Passing Requirements (ALL must be met)
+#### Passing Requirements (ALL OF THEM must be reached)
 
 1. NP >= 4.0 and NL >= 4.0 and NCL >= 4.0
 

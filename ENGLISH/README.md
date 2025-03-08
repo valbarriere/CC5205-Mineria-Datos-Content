@@ -31,7 +31,7 @@ The version of this class is more focused on Machine Learning than Data Mining. 
 
 * [Extra Material 4: Clustering - Case Studies](https://docs.google.com/presentation/d/19cYVktPQvgjrnGH5a2gqVDvrD9g0XmdNBl0A30X_uxQ/edit?usp=sharing)
 
-## Other lassos
+## Other links
 
 1. [Book: Introduction to Data Mining (Second Edition)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php), [Software and Tutorials](http://www.cse.msu.edu/~ptan/dmbook/software/)
 2. [Book: Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (Third Edition)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) [Notebooks](https://github.com/ageron/handson-ml3)

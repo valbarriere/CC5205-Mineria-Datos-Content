@@ -5,7 +5,7 @@ Nota: las cápsulas de video disponibles en la playlist de [Youtube](https://www
 
 El curso tiene las siguientes Unidades.
 
-1. Exploración de Datos
+1. Introduccion, Datos y Exploración de Datos
 2. Aprendizaje Supervisado: Clasificación y Regresión
 3. Clustering
 4. Temas Avanzados: Selección y Reducción de Atributos, Redes Neuronales
