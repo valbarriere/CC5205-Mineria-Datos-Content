@@ -23,7 +23,11 @@ El laboratorio está pensado para ser realizado durante el horario de clases, es
 
 El laboratorio incluye problemas de programación en las que aplicarán el contenido práctico visto en clases.
 
-Estas actividades deben realizarse en grupos de 2 personas.
+Estas actividades deben realizarse en grupos de 2 personas. 
+
+Otros puntos: 
+* Se deben mandar los laboratorios en formato `html`. 
+* Cuando se hace una reclama sobre la nota, no se puede ser mas de 2 semanas despues el dia de rendicion de las notas. 
 
 ### Mini-Controles
 
@@ -43,7 +47,7 @@ El laboratorio recuperativo también contempla un mini-control recuperativo.
 
 Proyecto (en grupos de 5 personas): evaluado en 2 hitos (o etapas) y con 3 sesiones de trabajo presenciales en horario de clases obligatorias.
 
-• Hito 1:  Selección y Exploración de un dataset, Propuesta de Experimentos y Resultados preliminares.  Se entrega un informe y se realiza presentación presencial de 3 minutos.
+• Hito 1:  Selección y Exploración de un dataset, Propuesta de Experimentos y Resultados preliminares.  Se entrega un informe y se realiza presentación presencial de 8 minutos.
 
 • Hito 2 : Informe final y Presentación de 15 minutos.
 
@@ -55,7 +59,7 @@ Tienen una 1 semana para atrasos con descuentos de 1 pto a la nota por día.
 
 • Hay: Nota Proyecto (NP), Nota Laboratorios (NL) y Nota de mini-controles (NC)
 
-• La nota de proyecto se divide en nota hito 1 (H1) y nota hito 2 (H3). Cada hito incluye además una nota de coevaluación. Si la nota de coevaluación es mayor a 4, entonces vale 20% de la nota del hito. En caso contrario (menor a 4), la nota del hito completo será igual a la nota de coevaluación, previa conversación del cuerpo docente con el grupo.
+• La nota de proyecto se divide en nota hito 1 (H1) y nota hito 2 (H2). Cada hito incluye además una nota de coevaluación. Si la nota de coevaluación es mayor a 4, entonces vale 20% de la nota del hito. En caso contrario (menor a 4), la nota del hito completo será igual a la nota de coevaluación, previa conversación del cuerpo docente con el grupo.
 
 • Nota Laboratorios = Promedio (MEJOR7(L1,L2,L3,L4,...,LR)).
 

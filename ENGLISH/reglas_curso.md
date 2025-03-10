@@ -25,6 +25,10 @@ The lab includes programming problems in which you will apply the practical cont
 
 These activities must be done in groups of 2 people.
 
+Other points: 
+* Labs must be sent in `html` format. 
+* When you make a complaint about the grade, it cannot be more than 2 weeks after the day of the grade submission. 
+
 ### Mini-controls
 
 Before each laboratory there will be a mini-control in which theoretical aspects or concepts seen in previous classes will be asked.
@@ -37,13 +41,13 @@ The mini-reading test is individual and face-to-face.
 
 The remedial lab also includes a mini-retest.
 
-**Note: **Only the school's formal mechanisms for absences will be considered.
+**Note:** Only the school's formal mechanisms for absences will be considered.
 
 ### Project
 
 Project (in groups of 5 people): evaluated in 2 milestones (or stages) and with 3 face-to-face work sessions in compulsory class time.
 
-- Milestone 1: Selection and Exploration of a dataset, Proposal of Experiments and Preliminary Results.  A report is handed in and a 3-minute presentation is made.
+- Milestone 1: Selection and Exploration of a dataset, Proposal of Experiments and Preliminary Results.  A report is handed in and a 8-minute presentation is made.
 
 - Milestone 2 : Final Report and 15 minutes Presentation.
 
@@ -55,7 +59,7 @@ You have a 1 week late payment period with 1 point deductions per day.
 
 - There are: Project Note (NP), Laboratory Note (NL) and Mini-controls Note (NC).
 
-- The project grade is divided into a milestone 1 grade (H1) and a milestone 2 grade (H3). Each milestone also includes a co-assessment mark. If the co-evaluation mark is higher than 4, then it is worth 20% of the milestone mark. Otherwise (less than 4), the mark for the entire milestone will be equal to the co-assessment mark, after discussion of the teaching staff with the group.
+- The project grade is divided into a milestone 1 grade (H1) and a milestone 2 grade (H2). Each milestone also includes a co-assessment mark. If the co-evaluation mark is higher than 4, then it is worth 20% of the milestone mark. Otherwise (less than 4), the mark for the entire milestone will be equal to the co-assessment mark, after discussion of the teaching staff with the group.
 
 - Laboratory mark = Average (BEST7(L1,L2,L3,L4,...,LR)).
 

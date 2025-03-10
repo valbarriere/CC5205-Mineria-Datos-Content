@@ -14,11 +14,11 @@ The version of this class is more focused on Machine Learning than Data Mining. 
 
 - The material for this course has been constantly updated. During this process the following have participated
   - [Bárbara Poblete](https://www.barbara.cl/) (creator of the original course)
-  - Felipe Bravo-Marquez](https://felipebravom.com/)
-  - Andrés Abeliuk](https://aabeliuk.github.io/)
+  - [Felipe Bravo-Marquez](https://felipebravom.com/)
+  - [Andrés Abeliuk](https://aabeliuk.github.io/)
   - [Hernán Sarmiento](https://scholar.google.com/citations?user=LlvbtQ0AAAAJ&hl=es)
   - [Jazmine Maldonado](https://www.linkedin.com/in/jazminemf/)
-  - Cinthia Sánchez](https://users.dcc.uchile.cl/~cisanche/)
+  - [Cinthia Sánchez](https://users.dcc.uchile.cl/~cisanche/)
   - [Juan Jose Alegria](https://cl.linkedin.com/in/juanjo-alegria)
 
 ## Extra Material

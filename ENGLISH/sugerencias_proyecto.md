@@ -13,8 +13,8 @@
 - **Awesome Data Chile**: Curated list of public data sources on Chile compiled by the IMFD: https://github.com/imfd/awesome-data-chile
 
 - **COVID 19**: There are several public datasets on the pandemic.
-  - COVID19 Chile Data - Jorge Perez Repository](https://github.com/jorgeperezrojas/covid19-data)
-  - COVID19 Global Forecasting](https://www.kaggle.com/c/covid19-global-forecasting-week-1/overview)
+  - [COVID19 Chile Data - Jorge Perez Repository](https://github.com/jorgeperezrojas/covid19-data)
+  - [COVID19 Global Forecasting](https://www.kaggle.com/c/covid19-global-forecasting-week-1/overview)
   - [COVID-19 Open Research Dataset](https://www.semanticscholar.org/cord19)
 
 - **Fairness & Bias (Data Science for Social Good)**: A new problem arises with the use of Machine Learning and Data Mining in social contexts, such as bias and discrimination. This suggests finding ways to create models that allow different groups to be treated ‘fairly’, but the definition of fairness is complex and the problems carry over from the generation of the data, the interpretation of the data and the models, and how they impact on the future. For example, an emblematic case in the United States was that of a company that offered a prediction of criminals' risk of re-offending, and this score is used by judges to adjust sentences. It was observed that this score was assigned in an unbalanced way to different racial or ethnic groups. The aim of this project is to identify these biases and find ways to reduce them, or conclude that there is no such solution.
