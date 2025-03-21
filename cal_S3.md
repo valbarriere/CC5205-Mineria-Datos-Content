@@ -11,8 +11,8 @@
 |    1     | 10/03 - 16/03 | **Lunes 10/03 - 11:15 hrs**: Presentación curso + Explicación Proyecto (Online) <br/>**Viernes 14/03 - 10:15 hrs**: Introducción | [Introducción y Motivación](https://valbarriere.github.io/minerias/1_intro/) |
 |    2     | 17/03 - 23/03 | **Lunes 17/03 - 10:15 hrs:** Datos <br/> **Viernes 21/03 - 10:15 hrs:** Exploración de datos   | [Datos](https://valbarriere.github.io/minerias/2_datos/) </br> [Exploración de Datos](https://valbarriere.github.io/minerias/3_datos_exp/) |
 |    3     | 24/03 - 30/03 | **Lunes 24/03 - 10:15 hrs:** Intro Aprendizaje <br/>**Lunes 24/03 - 14:30 hrs:** Laboratorio 1 <br/> **Viernes 28/03 - 10:15 hrs:** Sesión de Grupo Proyecto #1 | [Introducción a la Clasificación](https://valbarriere.github.io/minerias/4_intro_sl/)  |
-|    4     | 31/03 - 06/04 | **Lunes 31/03 - 10:15 hrs:** Sesgos y Equidad <br/>**Lunes 31/03 - 14:30 hrs:** Laboratorio 2 | [Sesgos y Equidad](https://valbarriere.github.io/minerias/5_biases/)|
-|    5     | 07/04 - 13/04 | **Lunes 07/04 - 10:15 hrs:** Modelos Lineales | [Modelos Lineales](https://valbarriere.github.io/minerias/6_modelos_lin/) |
+|    4     | 31/03 - 06/04 | **Lunes 31/03 - 10:15 hrs:** Modelos Lineales <br/>**Lunes 31/03 - 14:30 hrs:** Laboratorio 2 | [Modelos Lineales](https://valbarriere.github.io/minerias/6_modelos_lin/)|
+|    5     | 07/04 - 13/04 | **Lunes 07/04 - 10:15 hrs:** Sesgos y Equidad | [Sesgos y Equidad](https://valbarriere.github.io/minerias/5_biases/) |
 |          |14/04 - 20/04  | **RECESO ACADÉMICO**                                         |                                                              |
 |     6   |  21/04 - 27/04  | **Lunes 21/04 - 10:15 hrs:** Modelos (Clasificación y Regresión)<br/>**Lunes 21/04 - 14:30 hrs:** Laboratorio 3<br/>**Viernes 25/04 - 10:15 hrs:** Sesión de Grupo Proyecto #2 | [Modelos](https://valbarriere.github.io/minerias/7_clasificadores/) |
 |    7     | 28/04 - 04/05 | **Lunes 28/04 - 10:15 hrs:** Support Vector Machines<br/>**Lunes 28/04 - 14:30 hrs:** Laboratorio 4 | [Support Vector Machines](https://valbarriere.github.io/minerias/8_svm/) |
