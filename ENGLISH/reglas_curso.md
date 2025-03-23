@@ -53,7 +53,9 @@ Project (in groups of 5 people): evaluated in 2 milestones (or stages) and with 
 
 The report is incremental and is presented in a web page format (HTML).
 
-You have a 1 week late payment period with 1 point deductions per day.
+You have a 1 week late period with a deduction of 1 point per day.
+
+Instructions are available [here](https://docs.google.com/document/d/1yg9Z5t9pdo4U67vV_goYncqiK3hzCZGF/edit?usp=sharing&ouid=112762351735054867590&rtpof=true&sd=true). 
 
 ### Notes
 

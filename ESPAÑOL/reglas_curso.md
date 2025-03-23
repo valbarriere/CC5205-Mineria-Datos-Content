@@ -55,6 +55,8 @@ El informe es incremental y se presenta en formato de una página Web (HTML).
 
 Tienen una 1 semana para atrasos con descuentos de 1 pto a la nota por día.
 
+Las instrucciones se encontran disponible [aca](https://docs.google.com/document/d/1yg9Z5t9pdo4U67vV_goYncqiK3hzCZGF/edit?usp=sharing&ouid=112762351735054867590&rtpof=true&sd=true). 
+
 ### Notas
 
 • Hay: Nota Proyecto (NP), Nota Laboratorios (NL) y Nota de mini-controles (NC)
