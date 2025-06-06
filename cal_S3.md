@@ -19,6 +19,6 @@
 |    8     | 05/05 - 11/05 | **Lunes 05/05 - 10:15 hrs:** Clustering<br/>**Viernes 09/05 - 10:15 hrs:** Presentación Hito 1 | [Clustering](https://valbarriere.github.io/minerias/9_clustering/) |
 |    9     | 12/05 - 18/05 | **Lunes 12/05 - 10:15 hrs:** Selección y Reducción de Atributos <br/>**Lunes 12/05 - 14:30 hrs:** Laboratorio 5 | [Selección y Reducción de Atributos](https://valbarriere.github.io/minerias/10_reduccion_atributos/)|
 |          | 19/05 - 25/05 | **RECESO ACADÉMICO**                                         |                                                              |
-|    10   |  26/05 - 01/06| **Lunes 26/05 - 10:15 hrs:** Redes Neuronales<br/>**Viernes 30/05 - 10:15 hrs:** Sesión de Grupo Proyecto #3 <br/>**Lunes 26/05 - 14:30 hrs:** Laboratorio 6 | [Redes Neuronales](https://valbarriere.github.io/minerias/11_NN/) |
-|   11     |  02/06 - 08/06 | **Lunes 02/06 - 10:15 hrs:** Intro a la NLP<br/>**Lunes 02/06 - 14:30 hrs:** Laboratorio 7 | [Intro a la NLP](https://valbarriere.github.io/minerias/12_NLP/) |
+|    10   |  26/05 - 01/06| **Lunes 26/05 - 10:15 hrs:** Redes Neuronales<br/>**Viernes 30/05 - 10:15 hrs:** Sesión de Grupo Proyecto #3 <br/>**Lunes 26/05 - 14:30 hrs:** Laboratorio 6 | [Redes Neuronales](https://valbarriere.github.io/minerias/11_nn/) |
+|   11     |  02/06 - 08/06 | **Lunes 02/06 - 10:15 hrs:** Intro a la NLP<br/>**Lunes 02/06 - 14:30 hrs:** Laboratorio 7 | [Intro a la NLP](https://valbarriere.github.io/minerias/12_nlp/) |
 |   12     | 09/06 - 15/06 | **Lunes 09/06 - 14:30 hrs:** Laboratorio Recuperativo <br/>**Viernes 13/06 - 10:15 hrs:** Entrega y Presentación Final del Proyecto | |
